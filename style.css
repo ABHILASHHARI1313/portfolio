@@ -1,0 +1,56 @@
+
+:root{
+   --main-color : #212529;
+}
+
+body
+{
+    background-color: var(--main-color) ;
+    color: var(--text-color);
+    padding: 0;
+    margin: 0%;
+}
+
+.heading{
+    background-color: #6c757d;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-weight: 600;
+}
+.left-nav{
+    display: flex;
+    gap:1.5rem;
+}
+.left-nav img{
+    width: 3rem;
+}
+.hello{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+ul{
+    gap:1.5rem;
+}
+.round{
+    border-radius: 2%;
+    border: 3px solid #6c757d;
+}
+.hai{
+    background: #6c757d;
+}
+.hey{
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.project{
+    background-color: var(--main-color) ;
+}
+.one{
+    background: #212529;
+}
+.footer{
+    background-color: var(--main-color) ;
+}
